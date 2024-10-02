@@ -29,9 +29,10 @@ body {
 
 /* Estilo do título */
 h1 {
-    text-align: center;
+    left:0%;
     margin-bottom: 20px;
     color: #0056b3;
+    padding-left: 50px;
 }
 
 /* Estilo dos rótulos */
@@ -68,4 +69,7 @@ button {
 button:hover {
     background-color: #004494;
 }
+div#titulo{
+    padding-left: 50px;
 
+}
