@@ -9,9 +9,9 @@ body, h1, label, input, button {
 
 /* Estilo geral do corpo */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /*fonte do texto*/
     background-color: #f4f4f4;
-    color: #333;
+    color: #333; /*define cor*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body {
 
 /* Estilo do contêiner */
 .container {
-    background: #fff;
+    background: #fff; /*definir cor*/
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -57,8 +57,8 @@ button {
     width: 100%;
     padding: 10px;
     background-color: #0056b3;
-    color: white;
-    border: none;
+    color: white; /*definir cor*/
+    border: none;/*borda*/
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
