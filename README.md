@@ -9,9 +9,10 @@ O Cadastro de Endereço é uma aplicação web interativa projetada para facilit
 * [Descrição](#descrição)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Funcionalidades](#funcionalidades)
-* [Como funciona](#como-funciona)
+* [ Resumo-da-funcionalidade](#resumo-da-funcionalidade)
 * [Como usar](#como-usar)
 * [Resultado](#resultado)
+* [Atributos diferencias no codigo JavaScript](#atributos-diferencias-no-codigo-javascriptAtributos-diferencias-no-codigo-JavaScript)
 
 ## Tecnologias Utilizadas 🛠️
 
@@ -35,17 +36,53 @@ Limpeza de Formulário: Campos são automaticamente limpos antes de um novo pree
 
 Mensagens de Alerta: O usuário é notificado se o CEP inserido for inválido ou se não for encontrado.
 
-## Como Funciona  🌟
+# Resumo-da-funcionalidade 
  
-Limpeza do Formulário: Ao iniciar a busca, todos os campos de endereço são limpos para evitar confusão com dados anteriores.
+O projeto basea-se em tornar mais pratico a realização de cadstro de endeço. Qual quando é digitado o cep preenche todo os outro campos como; bairro, cidade... mantando a padronização.
+ 
+# Explanção-do-codigo
+ 
+1.  Inicio:
+    > - 'use strict'; ativa um modo de programação que evita erros comuns, garantindo que o código seja mais seguro.
+ 
+2. Função limparFormulario:
+ 
+    > Limpa os campos do formulário de endereço ao definir seus valores como vazios, utilizando getElementById.
+ 
+ 
+3. Validação do CEP:
+ 
+    > - Função eNumero: Verifica se o valor contém apenas dígitos numéricos usando uma expressão regular.
+    >
+    > - Função cepValido: Confirma se o CEP possui exatamente 8 dígitos e é numérico.
+ 
+4. Função preencherFormulario:
+ 
+    > Recebe um objeto endereco e preenche os campos do formulário com os dados correspondentes, como logradouro e bairro.
+ 
+5. Função pesquisarCep:
+ 
+    >- Assíncrona: Utiliza async/await para lidar com a API.
+    >
+    > - Limpa o formulário e monta a URL da requisição.
+    >
+    > - Verifica se o CEP é válido, faz uma requisição à API viaCep, e trata a resposta convertendo-a para JSON.
+    > - Se o CEP não for encontrado, exibe um alerta; caso contrário, preenche o formulário.
+ 
+6. Escutador de Evento:
+ 
+    > - addEventListener é usado para chamar a função pesquisarCep quando o usuário sai do campo CEP (evento focusout: O evento focusout é acionado assim que o elemento perde o foco, no caso quando o usuário sai do campo de texto).
+tem menu de contexto
 
-Validação do CEP: O CEP deve ser composto por exatamente 8 dígitos numéricos. A aplicação utiliza expressões regulares para garantir essa validação.
-
-Consulta à API: Após a validação, o CEP é usado para fazer uma chamada assíncrona à API ViaCEP. Se o CEP for válido, os dados do endereço são retornados em formato JSON.
-
-Preenchimento dos Campos: Se a API retornar dados válidos, os campos de endereço são preenchidos automaticamente. Caso contrário, uma mensagem de alerta é exibida.
-
-Acessibilidade: A aplicação é projetada para ser acessível e responsiva, funcionando em diferentes tamanhos de tela.
+# Atributos diferencias no codigo JavaScript ✨
+ 
+- 'async function': O async function define uma função assíncrona, que retorna um objeto AsyncFunction. Ele é utilizado em linguagens de programação como o Java Scrypit.
+ 
+- 'const': A declaração const cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída.
+ 
+- 'await': Quando utilizamos await, o JavaScript vai aguardar até que a promessa finalize. Caso ela seja finalizada com sucesso, o valor obtido é retornado.
+ 
+- 'addres.hasOwnProperty': Resumo O método hasOwnProperty() retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
 
 ## Como Usar ⚙️
 
@@ -62,4 +99,16 @@ Visualize os dados preenchidos automaticamente nos campos de endereço.
 
 # Resultado ⚔️
 
-![]()
+![img](img/resultado.jpeg)
+
+
+## Referências
+
+[ViaCEP](https://viacep.com.br/)
+ 
+>foi usado o formato JSON para o projeto
+ 
+[Mozilla](https://developer.mozilla.org/pt-BR/)
+ViaCEP - Webservice CEP e IBGE gratuito
+Webservice gratuito para consulta de endereço via CEP, suporta Ajax e retorno nos formatos JSON ou XML.
+ 
