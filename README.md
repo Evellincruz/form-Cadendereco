@@ -9,7 +9,7 @@ O Cadastro de Endereço é uma aplicação web interativa projetada para facilit
 * [Descrição](#descrição)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
 * [Funcionalidades](#funcionalidades)
-* [ Resumo-da-funcionalidade](#resumo-da-funcionalidade)
+* [ Resumo da funcionalidade](#resumo-da-funcionalidade)
 * [Como usar](#como-usar)
 * [Resultado](#resultado)
 * [Atributos diferencias no codigo JavaScript](#atributos-diferencias-no-codigo-javascriptAtributos-diferencias-no-codigo-JavaScript)
@@ -36,11 +36,11 @@ Limpeza de Formulário: Campos são automaticamente limpos antes de um novo pree
 
 Mensagens de Alerta: O usuário é notificado se o CEP inserido for inválido ou se não for encontrado.
 
-# Resumo-da-funcionalidade 
+# Resumo da funcionalidade 
  
 O projeto basea-se em tornar mais pratico a realização de cadstro de endeço. Qual quando é digitado o cep preenche todo os outro campos como; bairro, cidade... mantando a padronização.
  
-# Explanção-do-codigo
+# Explanção do codigo
  
 1.  Inicio:
     > - 'use strict'; ativa um modo de programação que evita erros comuns, garantindo que o código seja mais seguro.
