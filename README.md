@@ -10,11 +10,11 @@ O Cadastro de Endereço é uma aplicação web interativa projetada para facilit
 * [Tecnologias Utilizadas](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#tecnologias-utilizadas-%EF%B8%8F))
 * [Funcionalidades](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#funcionalidades-)
 * [Resumo da funcionalidade](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#resumo-da-funcionalidade)
-* [Explanção do código](#https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#explan%C3%A7%C3%A3o-do-codigo)
+* [Explanção do código](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#explan%C3%A7%C3%A3o-do-codigo)
 * [Atributos diferencias no codigo JavaScript](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#atributos-diferencias-no-codigo-javascript-)
-* [Como usar](#https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#como-usar-%EF%B8%8F)
-* [Resultado](#https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#resultado-%EF%B8%8F)
-* [Referências](#https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#refer%C3%AAncias)
+* [Como usar](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#como-usar-%EF%B8%8F)
+* [Resultado](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#resultado-%EF%B8%8F)
+* [Referências](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#refer%C3%AAncias)
 
 ## Tecnologias Utilizadas 🛠️
 
