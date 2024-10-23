@@ -7,7 +7,7 @@ O Cadastro de Endereço é uma aplicação web interativa projetada para facilit
 ## Indice ⛓️ 
  
 * [Descrição](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#descri%C3%A7%C3%A3o-)
-* [Tecnologias Utilizadas](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#tecnologias-utilizadas-%EF%B8%8F))
+* [Tecnologias Utilizadas](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#tecnologias-utilizadas-%EF%B8%8F)
 * [Funcionalidades](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#funcionalidades-)
 * [Resumo da funcionalidade](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#resumo-da-funcionalidade)
 * [Explanção do código](https://github.com/Evellincruz/form-Cadendereco?tab=readme-ov-file#explan%C3%A7%C3%A3o-do-codigo)
